@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+* {
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFF;
+    background-image: url('./images/bg.jpg');
+}
+
+.container {
+    background-color: white;
+    border: 3px solid #000;
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+    margin: 100px auto;
+    padding: 10px;
+}
+
+input, 
+select  {
+    border: 0px solid;
+    border-radius: 5px;
+    background-color: #efd0da;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
